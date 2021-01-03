@@ -31,7 +31,7 @@ body {
 }
 
 body > * {
-  filter: contrast(1.3);
+  filter: contrast(1.4);
 }
 
 header {
