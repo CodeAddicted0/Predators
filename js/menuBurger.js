@@ -41,17 +41,3 @@ if (mediaQuery.matches) {
   let navLinks = document.querySelectorAll(".navLink");
   navLinks.forEach((n) => n.addEventListener("click", linkAction));
 }
-
-const kMediaQuery = window.matchMedia("(max-width: 1024px)");
-
-if (kMediaQuery.matches) {
-  let w = Math.max(
-    document.documentElement.clientWidth,
-    window.innerWidth || 0
-  );
-  let h = Math.max(
-    document.documentElement.clientHeight,
-    window.innerHeight || 0
-  );
-  $("html, body").css({ width: w, height: h });
-}
