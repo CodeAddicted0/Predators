@@ -74,6 +74,7 @@ nav {
   clip-path: circle(100px at 150vw -55vh);
   -webkit-clip-path: circle(100px at 150vw -55vh);
   background-color: #ff404b;
+  line-height: initial;
 }
 
 .clipped {
