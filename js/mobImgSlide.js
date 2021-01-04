@@ -6,7 +6,7 @@ if (mediaQuery.matches) {
 
   window.addEventListener("scroll", function () {
     let valueY = window.scrollY;
-    let needValue = (((valueY / windowHeight) * windowWidth) / 5 / 100) * 5;
+    let needValue = (((valueY / windowHeight) * windowWidth) / 8 / 100) * 8;
     if (valueY > 400) {
       document.querySelector("#galaxyOps").style.left = `${needValue}%`;
     }
